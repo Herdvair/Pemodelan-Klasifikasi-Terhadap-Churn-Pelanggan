@@ -43,7 +43,7 @@ Saya menggunaka dua model klasifikasi, Decision Tree (DT) dan Random Forest (RF)
   - AUC-ROC (0.86) lebih tinggi, menunjukkan kemampuan diskriminasi antar kelas yang lebih baik.
     Precision (61%) lebih tinggi pada kelas Churn, yang berarti ketika model memprediksi pelanggan akan churn, kemungkinannya 61% benar. Ini krusial untuk meminimalkan False Positives (pelanggan sehat yang salah diprediksi churn), sehingga menghemat biaya kampanye retensi yang tidak perlu.
 
-🎯 Potensi Dampak Bisnis
+# 🎯 Potensi Dampak Bisnis
 Penerapan model Random Forest memungkinkan perusahaan:
 1. Identifikasi Dini Pelanggan Berisiko Tinggi: Perusahaan dapat secara proaktif mengidentifikasi pelanggan yang kemungkinan besar akan churn dengan tingkat kepastian yang seimbang antara precision dan recall.
 2. Efisiensi Biaya Retensi: Dengan precision 61% pada kelas churn, perusahaan dapat memfokuskan sumber daya dan anggaran kampanye retensi (seperti penawaran khusus atau layanan pelanggan personal) hanya pada pelanggan dengan risiko churn yang benar-benar nyata, dibandingkan dengan model yang menghasilkan banyak false alarm.
