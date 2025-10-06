@@ -29,12 +29,13 @@ Proyek ini berfokus pada analisis dan pengembangan model Machine Learning untuk 
 
 Saya menggunaka dua model klasifikasi, Decision Tree (DT) dan Random Forest (RF), pemodelan ini menggunakan Hyperparameter Tuning (GridSearchCV/RandomizedSearchCV) untuk mendapatkan performa terbaik.
 
-| Metrik Evaluasi |	Decision Tree (Train)	| Random Forest (Train) |	Decision Tree (Test) | Random Forest (Test) |
-|Accuracy	        | 0.83 |	0.89 | 0.78	| 0.80 |
-|F1-Score         |	0.83 | 	0.90 | 0.63 | 0.64 |
-|AUC-ROC	        |0.91 |	0.96  |	0.82 | 0.85 |
-|Recall (Churn/Class 1)|	0.84	| 0.90 |	0.70 | 0.67 |
-|Precision (Churn/Class 1)|	0.83 |	0.89 |	0.57 |	0.61 |
+| Metrik Evaluasi | Decision Tree (Train) | Random Forest (Train) | Decision Tree (Test) | Random Forest (Test) |
+| :--- | :---: | :---: | :---: | :---: |
+| Accuracy | 0.83 | 0.89 | 0.78 | 0.80 |
+| F1-Score | 0.83 | 0.90 | 0.63 | 0.64 |
+| AUC-ROC | 0.91 | 0.96 | 0.82 | 0.85 |
+| Recall (Churn/Class 1) | 0.84 | 0.90 | 0.70 | 0.67 |
+| Precision (Churn/Class 1) | 0.83 | 0.89 | 0.57 | 0.61 |
 
 **Model Pilihan: Random Forest**
 -> Random Forest terpilih sebagai model terbaik dengan performa yang lebih stabil dan seimbang pada data test:
