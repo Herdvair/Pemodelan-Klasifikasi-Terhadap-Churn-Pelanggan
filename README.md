@@ -25,7 +25,7 @@ Proyek ini berfokus pada analisis dan pengembangan model Machine Learning untuk 
       - Kolom biner lainnya (gender, Partner, Dependents, dll.) di-encode menggunakan Label Encoder.
     - Oversampling: Karena masalah imbalance data (perbandingan 73:27), dilakukan oversampling pada data training menggunakan teknik SMOTE (Synthetic Minority Oversampling Technique) untuk menyeimbangkan jumlah kelas (menjadi 50:50).
 
-# 🤖 Modeling & Hasil
+# 🤖 Pemodelan & Hasil
 
 Saya menggunaka dua model klasifikasi, Decision Tree (DT) dan Random Forest (RF), pemodelan ini menggunakan Hyperparameter Tuning (GridSearchCV/RandomizedSearchCV) untuk mendapatkan performa terbaik.
 
